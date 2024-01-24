@@ -35,7 +35,9 @@ public:
         return number1 + number2;
     }
 
-    double subtract() const;
+    double subtract() const{
+        return num1-num2;
+    }
 
     double multiply(double num1,double num2) const
     {
