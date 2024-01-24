@@ -35,7 +35,10 @@ public:
 
     double subtract() const;
 
-    double multiply() const;
+    double multiply(double num1,double num2) const
+    {
+        return num1*num2;
+    }
 
     double divide() const;
 };
@@ -51,7 +54,7 @@ int main() {
     // Performing operations
     std::cout << "Sum: " << calc.add() << std::endl;
     std::cout << "Difference: " << calc.subtract() << std::endl;
-    std::cout << "Product: " << calc.multiply() << std::endl;
+    std::cout << "Product: " << calc.multiply(calc.number1,calc.number2) << std::endl;
     
    
     std::cout << "Quotient: " << calc.divide() << std::endl;
