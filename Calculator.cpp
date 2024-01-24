@@ -31,7 +31,9 @@ public:
     }
 
     // Member functions for operations
-    double add() const;
+    double add() const{
+        return number1 + number2;
+    }
 
     double subtract() const;
 
@@ -42,7 +44,6 @@ public:
 
     double divide() const;
 };
-
 int main() {
     // Example usage
     Calculator calc(10, 5);
