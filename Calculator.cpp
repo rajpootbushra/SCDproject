@@ -42,7 +42,9 @@ public:
         return num1*num2;
     }
 
-    double divide() const;
+    double divide() const{
+        return number1 / number2;
+    }
 };
 int main() {
     // Example usage
